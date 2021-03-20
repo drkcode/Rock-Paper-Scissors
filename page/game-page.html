@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/reset.css" />
+    <link rel="stylesheet" href="../style/game.css" />
+
+    <title>Game</title>
+  </head>
+  <body>
+    <div class="c-page">
+      <div class="c-header">
+        <div class="c-header-item">
+          <div id="round-count" class="c-header-round">ROUND:1</div>
+        </div>
+        <div class="c-header-item">
+          <div class="c-header-item-player">YOU</div>
+          <div id="score-count" class="c-header-item-score">0:0</div>
+          <div class="c-header-item-cpu">CPU</div>
+        </div>
+      </div>
+
+      <div class="c-main">
+        <div id="battler-area" class="c-main-item">
+          <p>Please, choose your weapon!</p>
+        </div>
+      </div>
+
+      <div id="area-btn" class="c-footer">
+        <div class="c-footer-item">
+          <button id="btn-rock" class="c-footer-btn c-footer-btn--green">
+            <img src="../img/rock.png" alt="" />
+          </button>
+        </div>
+        <div class="c-footer-item">
+          <button id="btn-paper" class="c-footer-btn c-footer-btn--purple">
+            <img src="../img/paper.png" alt="" />
+          </button>
+        </div>
+        <div class="c-footer-item">
+          <button id="btn-scissors" class="c-footer-btn c-footer-btn--pink">
+            <img src="../img/scissors.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../game.js"></script>
+  </body>
+</html>
