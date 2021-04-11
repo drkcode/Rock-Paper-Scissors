@@ -145,10 +145,8 @@ const game = (playerSelection) => {
   rounds++;
 };
 
-btnRock.onclick = function () {
-  game(weapons[0]);
-};
+btnRock.onclick = () => game(weapons[0]);
 
-btnPaper.onclick = function () {};
+btnPaper.onclick = () => game(weapons[1]);
 
-btnScissors.onclick = function () {};
+btnScissors.onclick = () => game(weapons[2]);
