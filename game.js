@@ -111,6 +111,8 @@ const renderEndBtn = () => {
   createRestartBtn();
 };
 
+// test comment
+
 const game = (playerSelection) => {
   battlerArea.textContent = "";
   const cpu = cpuSelection();
